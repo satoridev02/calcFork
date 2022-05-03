@@ -1,0 +1,4 @@
+test:
+  assertStdoutEqual: 4
+  execute:
+  - [ echo "2+2" | bc ]
